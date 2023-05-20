@@ -1,0 +1,5 @@
+Overview of existing navigation platforms for autonomous drones in precision farming
+from Steinmetz, Charles to everyone:    10:45 AM
+https://apps.sentinel-hub.com/eo-browser/?zoom=15&lat=-18.84698&lng=-48.39439&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F42924c6c-257a-4d04-9b8e-36387513a99c&datasetId=S2L1C&fromTime=2019-11-01T00%3A00%3A00.000Z&toTime=2019-11-01T23%3A59%3A59.999Z&layerId=3_NDVI&demSource3D=%22MAPZEN%22
+from Steinmetz, Charles to everyone:    10:45 AM
+https://towardsdatascience.com/satellite-imagery-access-and-analysis-in-python-jupyter-notebooks-387971ece84b

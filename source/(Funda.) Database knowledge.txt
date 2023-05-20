@@ -1,0 +1,44 @@
+(Funda.) Database knowledge
+Analysis
+Scenario
+Outcome - realise the scenario
+
+Running GRASS in Jupyter Notebooks in Windows
+Set Up
+On Windows, we need to launch GRASS then launch Jupyter Lab within GRASS. This is a little more complex than Linux and Mac where we can just launch Jupyter Lab directly from the command line without starting GRASS first. Follow the directions below to setup Jupyter and GRASS in Windows.
+
+1. Install GRASS 8.3
+Install GRASS 8.3 (dev) with the standalone installer from here.
+
+2. Launch GRASS GIS as Administrator
+Launch GRASS GIS as Admin by right clicking on GRASS from the Windows start up menu and selecting "Run as Administrator". If you don't see this option, go to "More" then select "Open File Location". In the new File Explorer window that opens, right click on GRASS GIS and select "Run as Administrator".
+
+3. Install Jupyter Lab
+Next, we'll need to install Jupyter Lab (which contains Jupyter Notebook along with some additional functionality like being able to browse directories). Installing Jupyter Lab is easy since we have Pip installed with GRASS GIS. In the terminal that has launched with GRASS, run:
+
+python -m pip install jupyterlab
+
+4. Close GRASS GIS and Relaunch GRASS GIS
+Now that we've installed Jupyter Lab, we quit GRASS GIS with the exit command then re-open it from the Window's start up menu (no need to run as an administrator this time).
+
+3. Add GRASS to path variables
+In the command prompt window that opens with GRASS's launch, add GRASS 8.3 to the path variables:
+
+set PATH=%PATH%;C:\Program Files\GRASS GIS 8.3\
+
+6. Launch Jupyter Lab
+We're ready to launch jupyterlab now:
+
+python -m jupyter lab
+
+This should launch jupyter lab in a your default web browser. Use the left side panel to navigate to the notebook you wish to run and you're ready to go!
+
+7. Launching Jupyter Lab in the Future
+To launch Jupyter Lab from GRASS in the future:
+
+Open GRASS Command Line
+Add GRASS to path variables with :set PATH=%PATH%;C:\Program Files\GRASS GIS 8.3\
+Launch jupyter lab with python -m jupyter lab
+
+run this command
+- grass.run_command("g.region", flags="p")

@@ -1,0 +1,10 @@
+Version control
+	-How we represent different versions
+		-new instances
+		-delta base approach (too complicated)
+
+Importing files from drones
+	-what data are relevent
+		-gps coords
+		-
+Temporal data processing
