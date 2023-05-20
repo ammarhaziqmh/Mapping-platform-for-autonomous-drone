@@ -1,0 +1,2 @@
+d.rast map=elevation@PERMANENT bgcolor=white
+d.vect map=towers3@PERMANENT layer=1 display=shape type=point,line,area,face color=0:29:57 fill_color=0:103:204 width=0 width_scale=1 icon=basic/x size=5 icon_area=legend/area icon_line=legend/line label_layer=1 label_color=red label_bgcolor=none label_bcolor=none label_size=8 xref=left yref=center

@@ -1,0 +1,10 @@
+COMMAND: v.in.ogr input="C:\Users\Ammar Haziq\Downloads\Shape_files\Rother.shp" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\Ammar Haziq\Documents\grassdata
+LOCATION: projectVer1 MAPSET: PERMANENT USER: Ammar Haziq DATE: Mon May 15 08:38:01 2023
+-----------------------------------------------------
+1 input polygons
+Total area: 158498 (1 areas)
+Overlapping area: 0 (0 areas)
+Area without category: 0 (0 areas)
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------

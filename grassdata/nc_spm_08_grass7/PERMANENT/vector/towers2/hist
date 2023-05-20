@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr input="C:\Users\Ammar Haziq\Downloads\export (2).geojson" layer="export (2)" output="towers2" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\Ammar Haziq\Documents\grassdata
+LOCATION: tmp_v_import_location_DESKTOP_JNC59BT_20396 MAPSET: PERMANENT USER: Ammar Haziq DATE: Wed May 10 15:13:08 2023
+---------------------------------------------------------------------------------
+COMMAND: v.proj location="tmp_v_import_location_DESKTOP_JNC59BT_20396" mapset="PERMANENT" input="towers2" smax=10000
+GISDBASE: C:\Users\Ammar Haziq\Documents\grassdata
+LOCATION: nc_spm_08_grass7 MAPSET: PERMANENT USER: Ammar Haziq DATE: Wed May 10 15:13:09 2023

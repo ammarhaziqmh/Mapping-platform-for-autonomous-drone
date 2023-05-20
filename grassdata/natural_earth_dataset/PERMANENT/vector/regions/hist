@@ -1,0 +1,8 @@
+COMMAND: v.in.ogr --overwrite input="D:\giant-panda-national-park\natural-earth\10m_physical\ne_10m_geography_regions_polys.shp" output="regions" min_area=0.0001 type="" snap=1e-009
+GISDBASE: D:\grassdata
+LOCATION: global-dataset MAPSET: PERMANENT USER: baharmon DATE: Mon Jun 03 14:33:40 2019
+-----------------------------------------------------
+1140 input polygons
+Total area: 2.23981E+014 (4593 areas)
+Overlapping area: 1.40034E+014 (3484 areas)
+Area without category: 2.55861E+012 (65 areas)

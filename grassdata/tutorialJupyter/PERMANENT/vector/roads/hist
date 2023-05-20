@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr --overwrite input="Documents/grassdata/tutorialJupyter/PERMANENT/roads.geojson" output="roads" min_area=0.0001 type="" snap=-1
+GISDBASE: C:\Users\Ammar Haziq\Documents\grassdata
+LOCATION: tmp_v_import_location_DESKTOP_JNC59BT_1104 MAPSET: PERMANENT USER: Ammar Haziq DATE: Thu May 04 12:15:06 2023
+---------------------------------------------------------------------------------
+COMMAND: v.proj --overwrite location="tmp_v_import_location_DESKTOP_JNC59BT_1104" mapset="PERMANENT" input="roads" smax=10000
+GISDBASE: C:\Users\Ammar Haziq\Documents\grassdata
+LOCATION: tutorialJupyter MAPSET: PERMANENT USER: Ammar Haziq DATE: Thu May 04 12:15:06 2023
